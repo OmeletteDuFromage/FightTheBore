@@ -3,10 +3,13 @@
 
 #include "stdafx.h"
 #include <SFML/Graphics.hpp>
+#include "Core.h"
 
 int main()
 {
-	sf::RenderWindow window(sf::VideoMode(800, 600), "FightTheBore");
+	Core app;
+
+	app.run();
     return 0;
 }
 
